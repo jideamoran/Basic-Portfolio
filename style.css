@@ -1,27 +1,31 @@
-
-body.page { margin: 960px
-
+section {
+    height: 300px;
+    width: 400px;
+    background-color: white;
 }
-header.main {
-    padding: 20px;
+
+.top { background-color: #4aaaa5
+}
+
+header { padding: 20px;
     margin: 20px;
     background: #ffffff;
     border-color: #cccccc;
-
-}
-
-#header { background-color: #4aaaa5
-
-
-}
-
-#links {float: right;}
+    font-family: 'Georgia', Times, Times New Roman, serif;
     
+}
 
-p.body {background:white;
+.links { float: right;
+
+}
+
+body { background:white;
 
     border-style: solid;
     
-    border-width: 1px;
-
+    border-width: 1px
     }
+
+footer { #666666
+
+}
