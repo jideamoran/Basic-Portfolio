@@ -38,6 +38,14 @@ margin-top: 25px;
 text-align: center;
 }
 
+nav a { 
+    color: #333;
+    font-size: 10px;
+    padding: 5px 15px;
+    border-right: 2px solid #4aaaa5;
+    text-decoration: none;
+}
+
 nav, ul li {
     display: inline;
 }
@@ -46,3 +54,33 @@ nav, ul li {
 .wrapper {
     max-width: 960px;
     margin: 0 auto;}
+
+    .clearfix {
+        display: block;
+        clear: both;
+
+    }
+
+    #left-column, #right-column {
+        background: white;
+        padding: 25px;
+        border: 2px solid #ccc
+    }
+
+    #left-column {
+        width: 650px;
+        float: left;
+    }
+
+    #left-column h2 {
+        font-size: 24px;
+        padding: 15px 0;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #ccc;
+        
+    }
+
+    #right-column {
+        width: 270px;
+        float: right;
+    }
